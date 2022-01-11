@@ -7,7 +7,7 @@ import Listing from 'pages/Listing';
 import Form from 'pages/Form';
 import Navbar from "components/Navbar";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
@@ -21,4 +21,3 @@ function App() {
   );
 }
 
-export default App;
